@@ -21,7 +21,7 @@
             margin: 5px 0;
             padding: 10px;
             border-radius: 10px;
-            width: calc(100% - 00px); /* Set the width to 100% minus twice the padding */
+            width: 100%;
             box-sizing: border-box; /* Include padding in the width calculation */
         }
     </style>
@@ -44,9 +44,12 @@
         // Create new list items based on the query parameters
         if (elements) {
             elements.split(',').map(element => {
-                const listItem = document.createElement("li");
-                listItem.textContent = element.trim();
-                listContainer.appendChild(listItem);
+                const trimmedElement = element.trim();
+                if (trimmedElement !== "") {
+                    const listItem = document.createElement("li");
+                    listItem.textContent = trimmedElement;
+                    listContainer.appendChild(listItem);
+                }
             });
         }
     }
