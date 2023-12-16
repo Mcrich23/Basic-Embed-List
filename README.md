@@ -7,5 +7,5 @@ Set the elements with `?elements=` followed by your elements (comma separated)
 
 #### Example:
 ```
-https://mcrich23.github.io/basic-embed-list?elements=Item%201,Item%202,Item%203
+https://mcrich23.github.io/Basic-Embed-List?elements=Item%201,Item%202,Item%203
 ```
