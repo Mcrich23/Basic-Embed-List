@@ -3,7 +3,7 @@
 
 ## URL Query Parameter
 ### Element
-Set the elements with `?elements=` followed by your elements (comma separated)
+Set the elements with `?elements=` followed by your elements (comma separated).
 
 #### Example:
 ```
